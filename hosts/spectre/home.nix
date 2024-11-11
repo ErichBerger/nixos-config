@@ -13,6 +13,7 @@
       zoom-us
       spotify
       pavucontrol
+      gh
     ];
 
     sessionVariables = {
