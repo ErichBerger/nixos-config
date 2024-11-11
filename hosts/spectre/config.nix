@@ -165,7 +165,6 @@
       extraCompatPackages = [
         pkgs.proton-ge-bin
       ];
-      gamescopeSession.enable = true;
     };     
     dconf.enable = true;
     gamemode.enable = true;
