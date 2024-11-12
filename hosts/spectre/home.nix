@@ -91,6 +91,7 @@
     targets = {
       helix.enable = false; 
       waybar.enable = false;
+      hyprland.enable = false;
     };
   };
 
