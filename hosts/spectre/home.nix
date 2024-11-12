@@ -14,7 +14,7 @@
       spotify
       pavucontrol
       gh
-      pactl
+      
     ];
 
     sessionVariables = {
