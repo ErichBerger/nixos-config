@@ -23,6 +23,9 @@
     };
   };
 
+  imports = [
+    ../../config/waybar.nix
+  ];
   xdg = {
     enable = true;
     userDirs = {
@@ -87,6 +90,7 @@
   stylix = {
     targets = {
       helix.enable = false; 
+      waybar.enable = false;
     };
   };
 

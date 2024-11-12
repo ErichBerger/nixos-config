@@ -70,7 +70,7 @@
     xserver = {
       dpi = 96;
       enable = true;
-      desktopManager.gnome.enable = true;
+      #desktopManager.gnome.enable = true;
       displayManager.gdm = {
         enable = true;
         wayland = true;  
@@ -154,6 +154,7 @@
     configPackages = [
       pkgs.xdg-desktop-portal-gtk
       pkgs.xdg-desktop-portal
+      pkgs.xdg-desktop-portal-hyprland
     ];
   };
 
