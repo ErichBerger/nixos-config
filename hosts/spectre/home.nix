@@ -35,6 +35,11 @@
     cacheHome = "${config.home.homeDirectory}/.cache";
   };
 
+  wayland.windowManager.hyprland = {
+    enable = true;
+    settings = {};
+    systemd.variables = [ "--all"];
+  };
   # Define packages to be used within home
 
   programs = {
@@ -87,6 +92,8 @@
 
   gtk = {
     enable = true;
+
+    
   };
 
   qt = {
